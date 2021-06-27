@@ -189,6 +189,13 @@ img {
   cursor: pointer;
 }
 
+.bxs-heart {
+  font-size: 2rem;
+  margin-left: var(--mb-2);
+  cursor: pointer;
+  color:var(--red-color);
+}
+
 /*Show menu*/
 .show {
   left: 0;
