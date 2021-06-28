@@ -272,6 +272,15 @@ img {
   margin-bottom: var(--mb-6);
 }
 
+.spec__description {
+	margin-bottom: var(--mb-6);
+	list-style-type:circle;
+	margin-left: var(--mb-4);
+}
+
+li {
+}
+
  /*BUTTONS*/
 .button {
   display: inline-block;
