@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- ===== CSS ===== -->
+        <link rel="stylesheet" href="assets/css/styles.css">
+
+        <!-- ===== BOX ICONS ===== -->
+        <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>        
+
+        <title>Cart - Arkstore</title>
+    </head>
+<body>
+     <!--===== HEADER =====-->
+        <header class="l-header" id="header">
+            <nav class="nav bd-grid">
+                <div class="nav__toggle" id="nav-toggle">
+                    <i class='bx bxs-grid'></i>
+                </div>
+
+                    <a href="index.html" class="nav__logo">ark<span class="lugo">.</span><span class="lugod"></span></a>
+
+                    <div class="nav__menu" id="nav-menu">
+                        <ul class="nav__list">
+                            <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                            <li class="nav__item"><a href="index.html#featured" class="nav__link">Featured</a></li>
+                            <li class="nav__item"><a href="./index.html#light-gaming" class="nav__link">Series</a></li>
+                            <li class="nav__item"><a href="index.html#new" class="nav__link">New</a></li>
+                            <li class="nav__item"><a href="./shop.html" class="nav__link">Product</a></li>
+                        </ul>
+                    </div>
+
+                <div class="nav__shop">
+                    <a href="cart.html" class="nav__link"><i class='bx bx-shopping-bag' ></i></a>
+                </div> 
+                <div class="nav__shop">
+                    <a href="#" class="nav__link"><i class='bx bx-search' ></i></i></a>
+                </div> 
+            </nav> 
+        </header>
+
+           
+    <!--===== CART =====-->
+
+        <div class="containerca cart">
+            <table>
+                <tr>
+                    <th>Product</th>
+                    <th>Quantity</th>
+                    <th>Subtotal</th>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="assets/img/aero15.png" alt="" />
+                            <div>
+                                <p>Gigabyte Aero 15</p>
+                                <span>Price: $1.999.00</span>
+                                <br />
+                                <br />
+                                <a class="link" href="#">remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" class="inc" value="1" min="1" />
+                    </td>
+                    <td>$1.999.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="assets/img/summite15a.png" alt="" />
+                            <div>
+                                <p>MSI SUMMIT E15</p>
+                                <span>Price: $1.799.00</span>
+                                <br />
+                                <br />
+                                <a class="link" href="#">remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" class="inc" value="1" min="1" />
+                    </td>
+                    <td>$1.999.00</td>
+                </tr>
+                <tr>
+                    <td>
+                        <div class="cart-info">
+                            <img src="assets/img/vivobooks14.png" alt="" />
+                            <div>
+                                <p>Asus Vivobook S14</p>
+                                <span>Price: $599.00</span>
+                                <br />
+                                <br />
+                                <a class="link" href="#">remove</a>
+                            </div>
+                        </div>
+                    </td>
+                    <td>
+                        <input type="number" class="inc" value="1" min="1" />
+                    </td>
+                    <td>$599.00</td>
+                </tr>
+        </table>
+  
+            <div class="total-price">
+                <table>
+                    <tr>
+                        <td>Subtotal</td>
+                        <td>$3.999</td>
+                    </tr>
+                    <tr>
+                        <td>Tax</td>
+                        <td>$100</td>
+                    </tr>
+                    <tr>
+                        <td>Total</td>
+                        <td>$4.000</td>
+                    </tr>
+                </table>
+                <div class="containerd">
+                    <center>
+                        <h4>Select Payment Method</h4>
+                    </center>
+                    <input type="radio" class="radio" name="payment"/>
+                        <i class='bx bxl-paypal'></i><label class="teks"> Paypal</label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="radio" name="payment"/>
+                        <i class='bx bxs-credit-card' ></i><label class="teks"> Credit Card</label>
+                    </input>
+                    <br/>
+                    <input type="radio" class="radio" name="payment"/>
+                        <i class='bx bxl-bitcoin'></i><label class="teks"> Bitcoin</label>
+                    </input>
+                    <a href="#" class="btn-checkout">Proceed Payment</a>
+                </div>
+            </div>
+      </div>
+
+    <!--===== FOOTER =====-->
+
+      <footer class="footer section">
+        <div class="footer__container bd-grid">
+            <div class="footer__box">
+                <h3 class="footer__title">arkstore<span class="lugo">.</span><span class="lugod"></span></h3>
+                <p class="footer_description">We serve you a better store experience</p>
+            </div>
+
+            <div class="footer__box">
+                <h3 class="footer__title">EXPLORE</h3>
+                <ul>
+                    <li><a href="#home" class="footer__link">Home</a></li>
+                    <li><a href="#featured" class="footer__link">Featured</a></li>
+                    <li><a href="#light-gaming" class="footer__link">Gaming Laptops</a></li>
+                    <li><a href="#light-gaming" class="footer__link">Ultrabook Series</a></li>
+                    <li><a href="#new" class="footer__link">Brand New</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__box">
+                <h3 class="footer__title">SUPPORT</h3>
+                <ul>
+                    <li><a href="#" class="footer__link">Product Help</a></li>
+                    <li><a href="contact.html" class="footer__link">Customer Care</a></li>
+                    <li><a href="#" class="footer__link">Athorized Service</a></li>
+                </ul>
+            </div>
+
+            <div class="footer__box">
+                <a href="#" class="footer__social"><i class='bx bxl-facebook'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-instagram'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-twitter'></i></a>
+                <a href="#" class="footer__social"><i class='bx bxl-google'></i></a>
+            </div>
+        </div>
+
+        
+        <div class="footer__copy">
+            <p>&#169; 2021 Rangga Tito Prayogo - Project UAS Bisnis Elektronik - 311910036</p>
+            <p>Not for commercial use.</p>
+        </div>
+    </footer>
+</body>
+</html>

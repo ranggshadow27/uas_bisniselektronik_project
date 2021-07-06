@@ -10,11 +10,10 @@
         <!-- ===== BOX ICONS ===== -->
         <link href='https://unpkg.com/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>        
 
-        <title>Msi GS66 Details - Arkstore</title>
+        <title>Contact us - Arkstore</title>
     </head>
-    <body>
-
-        <!--===== HEADER =====-->
+<body>
+     <!--===== HEADER =====-->
         <header class="l-header" id="header">
             <nav class="nav bd-grid">
                 <div class="nav__toggle" id="nav-toggle">
@@ -43,69 +42,41 @@
         </header>
 
         <main class="l-main">
-            <!--===== HOME =====-->
+
+    <!--===== CONTACT =====-->
+
             <section class="home">
-                <div class="home__container bd-grid">
-                    <div class="home__laptop">
-                        <div class="home__shape"></div>
-                        <img src="assets/img/gs6s.png" alt="" class="home__img">
-                    </div>
-
-                    <div class="home__data">
-                        <h1 class="home__title">MSI GS66 Stealth Thin</h1>
-                        <hr>
-                        <p>Specification : </p>
-                        <br>
-                        <ul class="spec__description">
-                            <li>Intel® Core™ i9 Processor</li>
-                            <li>1 TB M.2 NVME & 16GB DDR4-3200 2 Slots</li> 
-                            <li>NVIDIA® GeForce RTX™ 2070 With Max-Q Design, 8GB GDDR6</li> 
-                            <li>802.11 ax Wi-Fi 6 + Bluetooth v5.1</li> 
-                            <li>99.9 Battery (Whr)</li> 
-                            <li>Dimension : 358.3 x 248 x 18.3-19.8 mm, 2.1 kg Weight</li> 
-                        </ul>
-                        <a href="directshop.html" class="button">Shop Now</a> 
-                        <i class='bx bxs-heart'></i>
-                    </div>
+                <div class="home__container">
+                    <div class="containercon clogin">
+                        <center>
+                            <h2>CONTACT PAGE</h2>
+                        </center>
+                        <br />
+                        <form action="session.php" method="post">
+                            <div class="area">
+                                <label>Your Email:</label><br />
+                                <input type="text" id="texted" placeholder="@email" />
+                            </div>
+                            <div class="area">
+                                <label>Your Name:</label><br />
+                                <input type="text" id="texted" placeholder="Name here" />
+                            </div>
+                            <div class="area">
+                                <label>Message:</label><br />
+                                <textarea rows="4" cols="50" id="texted" placeholder="Your messages"></textarea>
+                            </div>
+                            <br />  
+                            <div>
+                                <input type="submit" value="Send" id="btn">
+                            </div>
+                        </form>
+                    </div>                    
                 </div>
             </section>
-
-            <!--===== light-gaming laptop =====-->
-            <section class="light-gaming section">
-                <h2 class="section-title">LASTEST PRODUCT</h2>
-
-                <div class="light-gaming__container bd-grid">
-                    <article class="laptop">
-                        <img src="assets/img/legion7i.png" alt="" class="laptop__img">
-                        <span class="laptop__name">LEGION SLIM 7i</span>
-                        <span class="laptop__price">$149.99</span>
-                        <a href="" class="button-light">Details <i class='bx bx-right-arrow-alt button-icon'></i></a>
-                    </article>
-
-                    <article class="laptop">
-                        <img src="assets/img/dash.png" alt="" class="laptop__img">
-                        <span class="laptop__name">TUF DASH FX516</span>
-                        <span class="laptop__price">$149.99</span>
-                        <a href="" class="button-light">Details <i class='bx bx-right-arrow-alt button-icon'></i></a>
-                    </article>
-
-                    <article class="laptop">
-                        <img src="assets/img/zephyrusm16.png" alt="" class="laptop__img">
-                        <span class="laptop__name">ZEPHYRUS M16</span>
-                        <span class="laptop__price">$149.99</span>
-                        <a href="" class="button-light">Details <i class='bx bx-right-arrow-alt button-icon'></i></a>
-                    </article>
-
-                    <article class="laptop">
-                        <img src="assets/img/gs6.png" alt="" class="laptop__img">
-                        <span class="laptop__name">GS66 STEALTH</span>
-                        <span class="laptop__price">$149.99</span>
-                        <a href="" class="button-light">Details <i class='bx bx-right-arrow-alt button-icon'></i></a>
-                    </article>
-                </div>
-            </section>
+        </main>
 
         <!--===== FOOTER =====-->
+
         <footer class="footer section">
             <div class="footer__container bd-grid">
                 <div class="footer__box">
@@ -147,9 +118,5 @@
                 <p>Not for commercial use.</p>
             </div>
         </footer>
-
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
-        
-    </body>
+</body>
 </html>
