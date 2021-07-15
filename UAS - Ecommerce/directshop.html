@@ -86,25 +86,46 @@
                         <td>$2.899.00</td>
                     </tr>
                 </table>
-                <div class="containerd">
-                    <center>
-                        <h4>Select Payment Method</h4>
-                    </center>
-                    <input type="radio" class="radio" name="payment"/>
-                        <i class='bx bxl-paypal'></i><label class="teks"> Paypal</label>
-                    </input>
-                    <br/>
-                    <input type="radio" class="radio" name="payment"/>
-                        <i class='bx bxs-credit-card' ></i><label class="teks"> Credit Card</label>
-                    </input>
-                    <br/>
-                    <input type="radio" class="radio" name="payment"/>
-                        <i class='bx bxl-bitcoin'></i><label class="teks"> Bitcoin</label>
-                    </input>
-                    <a href="#" class="btn-checkout">Proceed Payment</a>
+                <div class="home__container">
+                    <div class="containercon clogin">
+                        <form action="session.php" method="post">
+                            <div class="area">
+                                <label>Your Email:</label><br />
+                                <input type="text" id="texted" placeholder="@email" />
+                            </div>
+                            <div class="area">
+                                <label>Your Name:</label><br />
+                                <input type="text" id="texted" placeholder="Name here" />
+                            </div>
+                            <div class="area">
+                                <label>Phone Number:</label><br />
+                                <input type="text" id="texted" placeholder="Phone number" />
+                            </div>
+                            <div class="area">
+                                <label>Address:</label><br />
+                                <textarea rows="4" cols="50" id="texted" placeholder="Your address"></textarea>
+                            </div>
+                        </form>
+                        <center>
+                            <h4>Select Payment Method</h4>
+                        </center>
+                        <input type="radio" class="radio" name="payment"/>
+                            <i class='bx bxl-paypal'></i><label class="teks"> Paypal</label>
+                        </input>
+                        <br/>
+                        <input type="radio" class="radio" name="payment"/>
+                            <i class='bx bxs-credit-card' ></i><label class="teks"> Credit Card</label>
+                        </input>
+                        <br/>
+                        <input type="radio" class="radio" name="payment"/>
+                            <i class='bx bxl-bitcoin'></i><label class="teks"> Bitcoin</label>
+                        </input>
+                        <a href="#" class="btn-checkout">Proceed Payment</a>
+                    </div>                    
                 </div>
             </div>
       </div>
+        </main>
 
     <!--===== FOOTER =====-->
 
